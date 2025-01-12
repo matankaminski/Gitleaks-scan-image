@@ -1,3 +1,8 @@
+You can pull the image and work directly with it instead of building it first with the command:
+
+   "docker pull ghcr.io/matankaminski/gitleaks-scan-image:v1.0"
+   
+Aotherwise you can build and run the image with the instruction below.
 Instruction for running the image:
 
 1. Build the Docker Image (if not already built): If you haven't built your Docker image yet, use the following command to build it from the Dockerfile. Make sure you are in the directory containing your Dockerfile:
