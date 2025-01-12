@@ -26,7 +26,6 @@ Node: you need to specify in your command to gitleaks to creat a JSON format fil
 If everything when as planned, after running the image you will recive info on the secrets Gitleaks found printed in the console like:
 {
   "findings":[
-  
   {
       "filename":"bad-vars.tf",
       "line_range":"11-11",
